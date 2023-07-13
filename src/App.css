@@ -1,11 +1,5 @@
-.react-style {
-  background-color: black;
-  color: aqua;
-  font-size: 48px;
-  font-weight: bold;
-  padding: 16px;
-}
-
 body {
-  padding: 20px 50px;
+  margin: 0;
+  padding: 0;
+  background: #9a9b9c;
 }
