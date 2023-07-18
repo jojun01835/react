@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.css";
-import CSSModule from "./CSSModule.jsx";
+import StyledComponent from "./StyledComponent";
+import BG from "./lik.jpg";
 const App5 = () => {
   return (
     <div>
-      <CSSModule />
-      <span className="something">CSS Module!</span>
+      <StyledComponent></StyledComponent>
+      {/* <div className="bg">
+        <img src={BG} alt="ww" style={{ width: "100%" }}></img>
+      </div> */}
+      <img src={process.env.PUBLIC_URL + "/lik.jpg"} alt="like"></img>
     </div>
   );
 };
